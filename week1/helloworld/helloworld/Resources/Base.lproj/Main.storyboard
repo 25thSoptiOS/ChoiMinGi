@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="TnY-a4-Yqi">
             <objects>
-                <viewController id="HWD-lv-BoR" sceneMemberID="viewController">
+                <viewController id="HWD-lv-BoR" customClass="ViewController" customModule="helloworld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K4E-vo-hLq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,6 +26,9 @@
                                 <rect key="frame" x="181" y="310" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="인사하기"/>
+                                <connections>
+                                    <action selector="onGreet:" destination="HWD-lv-BoR" eventType="touchUpInside" id="FWd-W2-M36"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCz-rW-jrG">
                                 <rect key="frame" x="173" y="348" width="69" height="30"/>
@@ -40,6 +43,9 @@
                         <viewLayoutGuide key="safeArea" id="oVJ-K1-8A1"/>
                     </view>
                     <navigationItem key="navigationItem" id="lzD-bg-ogh"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="ete-vq-xxA" id="nWl-bU-k7m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fLe-XE-1dE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
