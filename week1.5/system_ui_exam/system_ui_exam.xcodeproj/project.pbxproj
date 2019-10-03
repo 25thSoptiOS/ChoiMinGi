@@ -14,6 +14,9 @@
 		0D0302B32345F42D00376AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D0302B22345F42D00376AA1 /* Assets.xcassets */; };
 		0D0302B62345F42D00376AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0302B42345F42D00376AA1 /* LaunchScreen.storyboard */; };
 		0D232B6F234603C8002B1A52 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D232B6E234603C8002B1A52 /* SliderViewController.swift */; };
+		0D8E441A234618240088A711 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E4419234618240088A711 /* LoginViewController.swift */; };
+		0DD6ADE123460B22002564E4 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6ADE023460B22002564E4 /* SendViewController.swift */; };
+		0DD6ADE323460B38002564E4 /* SegControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6ADE223460B38002564E4 /* SegControlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		0D0302B52345F42D00376AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D0302B72345F42D00376AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D232B6E234603C8002B1A52 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		0D8E4419234618240088A711 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = system_ui_exam/Sources/ViewControllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		0DD6ADE023460B22002564E4 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		0DD6ADE223460B38002564E4 /* SegControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegControlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +94,11 @@
 		0D0302C72345F4E900376AA1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0D8E4419234618240088A711 /* LoginViewController.swift */,
 				0D0302AD2345F42C00376AA1 /* ViewController.swift */,
 				0D232B6E234603C8002B1A52 /* SliderViewController.swift */,
+				0DD6ADE023460B22002564E4 /* SendViewController.swift */,
+				0DD6ADE223460B38002564E4 /* SegControlViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -165,9 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8E441A234618240088A711 /* LoginViewController.swift in Sources */,
 				0D0302AE2345F42C00376AA1 /* ViewController.swift in Sources */,
 				0D0302AA2345F42C00376AA1 /* AppDelegate.swift in Sources */,
 				0D0302AC2345F42C00376AA1 /* SceneDelegate.swift in Sources */,
+				0DD6ADE123460B22002564E4 /* SendViewController.swift in Sources */,
+				0DD6ADE323460B38002564E4 /* SegControlViewController.swift in Sources */,
 				0D232B6F234603C8002B1A52 /* SliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
