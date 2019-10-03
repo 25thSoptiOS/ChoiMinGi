@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				0D16BCB6234324B60043F318 /* Info.plist */,
-				0D16BCC3234325C50043F318 /* SupportingFiles */,
+				0D16BCC3234325C50043F318 /* Supporting Files */,
 				0D16BCC2234325B10043F318 /* Resources */,
 				0D16BCBC2343253D0043F318 /* Sources */,
 			);
@@ -124,11 +124,11 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		0D16BCC3234325C50043F318 /* SupportingFiles */ = {
+		0D16BCC3234325C50043F318 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = SupportingFiles;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
